@@ -6,6 +6,8 @@ body {
     background: transparent;
     display: flex;
     justify-content: space-between;
+    border-bottom: 1px solid aqua;
+    height: 120px;
 }
 
 .logo {
@@ -15,6 +17,8 @@ body {
 .links {
     display: flex;
     justify-content: space-between;
+    align-items: center;
+    text-transform: uppercase;
 }
 
 .links > li:not(:first-child) {
