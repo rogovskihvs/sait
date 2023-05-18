@@ -1,7 +1,22 @@
-.header {
-    color: red;
+body {
+    background-image: url("./organic-food-farm.jpg");
 }
 
-.text {
-    font-size: 64px;
+.header {
+    background: transparent;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {
+    font-size: 1.2rem;
+}
+
+.links {
+    display: flex;
+    justify-content: space-between;
+}
+
+.links > li:not(:first-child) {
+    margin-left: 24px;
 }
