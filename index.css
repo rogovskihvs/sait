@@ -14,13 +14,14 @@ body {
     font-size: 1.2rem;
 }
 
-.links {
+.links ul {
     display: flex;
     justify-content: space-between;
     align-items: center;
     text-transform: uppercase;
 }
 
-.links > li:not(:first-child) {
+.links li:not(:first-child) {
     margin-left: 24px;
+    display: block;
 }
