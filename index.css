@@ -1,5 +1,6 @@
 body {
     background-image: url("./organic-food-farm.jpg");
+    margin: 0;
 }
 
 .header {
@@ -8,10 +9,12 @@ body {
     justify-content: space-between;
     border-bottom: 1px solid aqua;
     height: 120px;
+    color: white;
+    align-items: center;
 }
 
 .logo {
-    font-size: 1.2rem;
+    font-size: 2.5rem;
 }
 
 .links ul {
