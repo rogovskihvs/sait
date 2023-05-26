@@ -1,0 +1,33 @@
+@font-face {
+    font-family: 'a_FuturaRound'; 
+	src: url(./a_FuturaRound/afuturaround.ttf); 
+}
+
+@font-face {
+    font-family: 'a_FuturaRound'; 
+    font-weight: 500;
+	src: url(./a_FuturaRound/afuturaroundbold.ttf); 
+}
+
+@font-face {
+    font-family: 'a_FuturaRound';
+    font-style: italic;
+	src: url(./a_FuturaRound/afuturarounditalic.ttf); 
+}
+
+@font-face {
+    font-family: 'a_FuturaRound';
+    font-weight: 500; 
+    font-style: italic;
+	src: url(./a_FuturaRound/afuturaroundbolditalic.ttf); 
+}
+
+body {
+    margin: 0;
+    font-family: 'a_FuturaRound';
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}

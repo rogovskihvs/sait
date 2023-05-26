@@ -1,43 +1,103 @@
 body {
-    background-image: url("./organic-food-farm.jpg");
-    margin: 0;
+    background-image: url("./pics/organic-food-farm.jpg");
+    background-size: cover;
+    box-shadow: inset 0 0 350px 75px #000;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    color: white;
 }
 
 .header {
-    background: transparent;
     display: flex;
+    padding: 24px 48px;
     justify-content: space-between;
-    border-bottom: 1px solid aqua;
-    height: 120px;
+    font-weight: 100;
     color: white;
-    align-items: center;
-    padding: 0 24px;
+}
+
+.title {
+    margin: 0;
+    width: 500px;
+    font-size: 54px;
+    text-transform: uppercase;
 }
 
 .logo {
-    font-size: 2.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.logo-name {
+    margin: 0;
+    font-size: 36px;
+}
+
+.description {
+    margin: 0;
+    font-size: 28px;
+    text-transform: uppercase;
+    text-align: right;
+    width: 400px;
+}
+
+main {
+    margin: auto 48px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .links ul {
     display: flex;
+    flex-direction: column;
     justify-content: space-between;
-    align-items: center;
-    text-transform: uppercase;
+    width: 170px;
+    padding: 0;
 }
 
-li {
+.links li {
     display: block;
+    font-size: 36px;
+    margin-bottom: 24px;
 }
 
-a {
-    text-decoration: none;
+.button-buy {
+    margin: auto;
+    width: 240px;
+    height: 80px;
+    font-size: 36px;
+    color: white;
+    text-transform: uppercase;
+    border-radius: 30px;
+    border: none;
+    background: green;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 48px 24px;
+}
+
+.footer-left {
+    display: flex;
+    flex-direction: column;
+    font-size: 24px;
     color: white;
 }
 
-a:hover {
-    opacity: .8;
+.footer-left > div:last-child {
+    margin-top: 36px;
 }
 
-.links li:not(:first-child) {
-    margin-left: 24px;
+.footer-right {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    font-size: 24px;
+    line-height: 2;
+    text-align: right;
 }
