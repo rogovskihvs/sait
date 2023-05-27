@@ -1,0 +1,66 @@
+body {
+    background-color: #689E0E;
+    background-image: url('./pics/bg-pattern.png'); 
+    height: 100vh;
+    --center-row-height: 100px;
+}
+
+.bg-pattern {
+    background-color: #679e0eee;
+    width: 100%;
+    height: 100%;    
+    display: grid;
+    box-shadow: inset 0 0 350px 10px #000;
+    grid-template-rows: 1fr var(--center-row-height) 1fr;
+    grid-template-columns: 1fr 1fr;
+}
+
+.back-button {
+    background-image: url('./pics/back-button.png');
+    background-size: 100%;
+    width: 36px;
+    top: 64px;
+    left: 48px;
+    position: absolute;
+}
+
+.back-button::before {
+    content: '';
+    display: block;
+    padding-bottom: 100%;
+}
+
+.about-img {
+    max-width: 100%;
+    max-height: calc(50vh - var(--center-row-height) / 2);
+}
+
+h1 {
+    font-size: 72px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+h2 {
+    font-size: 48px;
+    text-transform: uppercase;
+    grid-row: 2 / 3;
+    grid-column: 1 / 3;
+    justify-self: center;
+    align-self: center;
+}
+
+.about-img-1 {
+    justify-self: end;
+}
+
+.about-img-2 {
+    grid-row: 3 / 4;
+    grid-column: 1 / 2;
+}
+
+.content {
+    font-size: 36px;
+    padding: 0 48px;
+    align-self: center;
+}

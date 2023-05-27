@@ -25,6 +25,11 @@
 body {
     margin: 0;
     font-family: 'a_FuturaRound';
+    color: white;
+}
+
+body * {
+    font-weight: 100;
 }
 
 a {
